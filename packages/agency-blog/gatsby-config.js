@@ -4,11 +4,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `StoryHub`,
-    author: `Monnisa`,
-    about: `Every company has a story to tell, so break out your storytelling skills from that random English class you took years ago and put them to work on your “About Us” page. Using descriptive and emotive copy and gorgeous graphics, an “About Us” page with a story works.`,
-    description: `A Gatsby Blog`,
-    siteUrl: `https://storyhub-agency-tarex.redq.now.sh/`,
+    title: `SoulEclipse`,
+    author: `Toli Zaslavskiy <toli@tolicodes.com> and Asya Tabdili-Azara <asyatabdili@gmail.com>`,
+    about: `A story of two lovers' souls coming together.`,
+    description: `A story of two lovers' souls coming together.`,
+    siteUrl: `https://souleclipse.us`,
   },
   plugins: [
     {
@@ -95,8 +95,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `StoryHub - Agency Blog`,
-        short_name: `StoryHub`,
+        name: `SoulEclipse`,
+        short_name: `SoulEclipse`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -125,7 +125,7 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        // username: ,
+        username: 'tolicodes',
         // access_token: ,
         // instagram_id: ,
       },
