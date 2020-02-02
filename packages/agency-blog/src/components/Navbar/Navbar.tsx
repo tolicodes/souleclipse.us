@@ -67,7 +67,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
         </DrawerProvider>
         <Logo>
           <Link to="/">
-            <img style={{ height: 50 }} src={LogoImage} alt="logo" />
+            <img style={{ maxHeight: 50 }} src={LogoImage} alt="logo" />
           </Link>
         </Logo>
         <MenuWrapper>
