@@ -17,9 +17,9 @@
     "packages/*"
   ],
   "scripts": {
-    "develop": "cd packages/agency-blog && gatsby develop",
-    "build": "ls /opt/build/repo/packages/agency-blog/src/components/Drawer && yarn && cd packages/agency-blog && echo 'yo2' &&  pwd && yarn && gatsby build && mv public ../..",
-    "serve": "cd packages/agency-blog && gatsby serve"
+    "develop": "cd packages/agency-blog && yarn develop",
+    "build": "yarn && cd packages/agency-blog && yarn && yarn build && mv public ../..",
+    "serve": "cd packages/agency-blog && yarn serve"
   },
   "husky": {
     "hooks": {
