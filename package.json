@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "develop": "cd packages/agency-blog && gatsby develop",
-    "build": "cd packages/agency-blog && yarn && gatsby build && mv public ../..",
+    "build": "cd packages/agency-blog && pwd && yarn && gatsby build && mv public ../..",
     "serve": "cd packages/agency-blog && gatsby serve"
   },
   "husky": {
