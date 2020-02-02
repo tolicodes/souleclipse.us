@@ -13,8 +13,9 @@ export const NavbarWrapper = styled.div`
   justify-content: space-between;
   border-bottom: 1px solid ${themeGet("borderColor", "#DBDBDB")};
   padding: 30px 75px;
-  background-color: #fff;
+  background-color: #3e02c8;
   transition: 0.25s ease-in-out;
+
   @media (max-width: 1400px) {
     padding: 25px 45px;
   }
