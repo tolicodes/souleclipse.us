@@ -67,14 +67,13 @@ export const MenuItem = styled.li`
     font-size: ${themeGet("fontSizes.3", "15")}px;
     line-height: ${themeGet("lineHeights.normal", "1")};
     font-weight: ${themeGet("fontWeights.3", "400")};
-    color: ${themeGet("colors.lightTextColor", "#757575")};
+    color: white;
     transition: 0.15s ease-in-out;
 
     &:hover {
-      color: ${themeGet("colors.textColor", "#292929")};
+      color: white;
     }
     &.active-link {
-      color: ${themeGet("colors.textColor", "#292929")};
       font-weight: ${themeGet("fontWeights.4", "500")};
     }
   }
@@ -82,6 +81,7 @@ export const MenuItem = styled.li`
 
 export const NavSearchButton = styled.button`
   background: transparent;
+  color: white;
   border: 0;
   outline: 0;
   padding: 5px 0 5px 10px;

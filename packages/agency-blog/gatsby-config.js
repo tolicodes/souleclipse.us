@@ -125,7 +125,7 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: 'tolicodes',
+        username: 'asyaazar',
         // access_token: ,
         // instagram_id: ,
       },

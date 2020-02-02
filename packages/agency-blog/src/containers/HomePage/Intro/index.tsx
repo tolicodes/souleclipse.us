@@ -20,22 +20,17 @@ type IntroProps = {}
 const SocialLinks = [
   {
     icon: <IoLogoFacebook />,
-    url: "#",
+    url: "http://facebook.com/tolicodes",
     tooltip: "Facebook",
   },
   {
     icon: <IoLogoInstagram />,
-    url: "#",
+    url: "http://instagram.com/tolicodes",
     tooltip: "Instagram",
   },
   {
-    icon: <IoLogoTwitter />,
-    url: "#",
-    tooltip: "Twitter",
-  },
-  {
     icon: <IoLogoGithub />,
-    url: "#",
+    url: "http://github.com/tolicodes/soueclipse.us",
     tooltip: "Github",
   },
 ]
@@ -58,7 +53,7 @@ const Intro: React.FunctionComponent<IntroProps> = props => {
     <IntroWrapper>
       <BgText>ABOUT</BgText>
       <IntroContentWrapper>
-        <IntroTitle>Stay on the story</IntroTitle>
+        <IntroTitle>Soul Eclipse</IntroTitle>
         <Desciption>{about}</Desciption>
         <SocialProfile items={SocialLinks} />
       </IntroContentWrapper>

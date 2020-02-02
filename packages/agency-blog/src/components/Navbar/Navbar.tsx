@@ -33,10 +33,6 @@ const MenuItems = [
     label: "Contact",
     url: "/contact",
   },
-  {
-    label: "404 Page",
-    url: "/404",
-  },
 ]
 
 const Navbar: React.FunctionComponent<NavbarProps> = ({
@@ -71,7 +67,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
         </DrawerProvider>
         <Logo>
           <Link to="/">
-            <img src={LogoImage} alt="logo" />
+            <img style={{ height: 50 }} src={LogoImage} alt="logo" />
           </Link>
         </Logo>
         <MenuWrapper>
