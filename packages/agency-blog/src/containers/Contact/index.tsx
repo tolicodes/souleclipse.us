@@ -10,20 +10,6 @@ import {
   InputGroup,
 } from "./style"
 
-interface MyFormValues {
-  firstName: string
-  email: string
-  message: string
-}
-
-const SignupSchema = Yup.object().shape({
-  firstName: Yup.string().required("Required"),
-  email: Yup.string()
-    .email("Invalid email")
-    .required("Required"),
-  message: Yup.string().required("Required"),
-})
-
 const Contact: React.SFC<{}> = () => {
   return (
     <ContactWrapper>
