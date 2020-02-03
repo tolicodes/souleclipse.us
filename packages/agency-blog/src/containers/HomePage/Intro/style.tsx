@@ -2,20 +2,15 @@ import styled from "styled-components"
 import { themeGet } from "styled-system"
 
 export const IntroWrapper = styled.div`
-  padding: 190px 10px 190px 10px;
-  position: relative;
-  @media (max-width: 1400px) {
-    padding: 120px 10px 120px 10px;
-  }
-  @media (max-width: 1200px) {
-    padding: 100px 10px 100px 10px;
-  }
-  @media (max-width: 990px) {
-    padding: 70px 10px 70px 10px;
-  }
-  @media (max-width: 575px) {
-    padding: 50px 25px 80px 25px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.4);
 `
 
 export const IntroContentWrapper = styled.div`
@@ -60,7 +55,7 @@ export const IntroTitle = styled.h1`
   font-size: 30px;
   font-weight: 700;
   font-family: ${themeGet("fontFamily.0", "'Fira Sans',sans-serif")};
-  color: ${themeGet("colors.textColor", "#292929")};
+  color: white;
   text-align: center;
   margin-bottom: 30px;
   @media (max-width: 990px) {
@@ -75,7 +70,7 @@ export const IntroTitle = styled.h1`
 `
 
 export const Desciption = styled.p`
-  color: ${themeGet("colors.textColor", "#292929")};
+  color: black;
   font-size: ${themeGet("fontSizes.3", "15")}px;
   line-height: ${themeGet("lineHeights.text", "2")};
   text-align: center;
@@ -89,7 +84,7 @@ export const BgText = styled.div`
   font-size: 400px;
   font-weight: 700;
   line-height: 1;
-  color: #292929;
+  color: black;
   opacity: 0.02;
   position: absolute;
   top: 50%;
